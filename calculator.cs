@@ -20,7 +20,7 @@ public class Program
             Console.WriteLine("2-Subtraction");
             Console.WriteLine("3-Division");
             Console.WriteLine("4-Modulo");
-            Console.WriteLine("5-Quadratic Equation:");
+            Console.WriteLine("5-Quadratic Equation");
 
             try
             {
