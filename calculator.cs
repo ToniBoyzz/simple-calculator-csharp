@@ -1,4 +1,4 @@
-﻿namespace Calculadora;
+﻿namespace Calculator;
 
 public class Program
 {
