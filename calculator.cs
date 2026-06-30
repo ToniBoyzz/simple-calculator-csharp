@@ -21,6 +21,7 @@ public class Program
             Console.WriteLine("3-Division");
             Console.WriteLine("4-Modulo");
             Console.WriteLine("5-Quadratic Equation");
+            Console.WriteLine("6-Points Distance");
 
             try
             {
@@ -132,6 +133,29 @@ public class Program
                             }
                         }
                         break;
+
+                        case 6:
+                            double px1, px2, y1, y2;
+                            // Asking for the points
+                            Console.WriteLine("First point x:");
+                            px1=double.Parse(Console.ReadLine()!);
+
+                            Console.WriteLine("First point y:");
+                            y1=double.Parse(Console.ReadLine()!);
+
+                            Console.WriteLine("Second point x:");
+                            px2=double.Parse(Console.ReadLine()!);
+
+                            Console.WriteLine("Second point y:");
+                            y2=double.Parse(Console.ReadLine()!);
+
+                            // Finding the distance
+
+                            result = Math.Sqrt(Math.Pow(px2-px1, 2)+Math.Pow(y2-y1, 2));
+
+                            Console.WriteLine($"The distance between the points is: {result:F2}");
+                            
+                            break;
 
                     default:
                         // Handles invalid menu numbers
